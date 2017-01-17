@@ -1,3 +1,8 @@
+# based on https://github.com/valor-software/ng2-select
+# keep fixing bug for ng2-select project
+# see changeLog to see bugs fixed
+
+
 # Native UI Select Angular2 component ([demo](http://valor-software.com/ng2-select/))
 ## ng2-select [![npm version](https://badge.fury.io/js/ng2-select.svg)](http://badge.fury.io/js/ng2-select) [![npm downloads](https://img.shields.io/npm/dm/ng2-select.svg)](https://npmjs.org/ng2-select)
 

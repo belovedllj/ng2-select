@@ -1,3 +1,14 @@
+<a name="1.0.0"></a>
+
+
+### Bug Fixes
+* **README:**  This project are based on ng2-select with bugs fixed below
+
+https://github.com/valor-software/ng2-select/issues/523
+https://github.com/valor-software/ng2-select/issues/545
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/valor-software/ng2-select/compare/v1.1.1...v1.1.2) (2016-11-11)
 
