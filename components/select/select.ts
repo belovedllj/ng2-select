@@ -404,7 +404,7 @@ export class SelectComponent implements OnInit {
       return;
     }
     let target = e.target || e.srcElement;
-    if (target && target.value) {
+    if (isUpMode && target && (target.value || target.value === "")) {
       this.inputValue = target.value;
       this.behavior.filter(new RegExp(escapeRegexp(this.inputValue), 'ig'));
       this.doEvent('typed', this.inputValue);
@@ -494,7 +494,7 @@ export class SelectComponent implements OnInit {
   }
 
   protected  isActive(value:SelectItem):boolean {
-    return this.activeOption.text === value.text;
+    return this.activeOption.id === value.id;
   }
 
   private focusToInput(value:string = ''):void {
